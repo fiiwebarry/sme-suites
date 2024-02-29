@@ -3,7 +3,9 @@ interface invoiceDetailsProps {
   previousComponent: () => void;
 }
 
+
 const InvoiceDetails = ({previousComponent}:invoiceDetailsProps) => {
+
 
   return (
     <>

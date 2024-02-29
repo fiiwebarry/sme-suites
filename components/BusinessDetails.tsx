@@ -6,10 +6,14 @@ interface BesinessDetailsProps {
   nextComponent: () => void;
 }
 
+<<<<<<< HEAD
 
 const BusinessDetails = ({nextComponent}:BesinessDetailsProps) => {
 
 
+=======
+const BusinessDetails = (:{nextComponent}) => {
+>>>>>>> ee947a9 (fixing datatype on props)
   return (
     <>
       <div className="container mt-10">

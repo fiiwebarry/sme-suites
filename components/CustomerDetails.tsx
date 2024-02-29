@@ -3,10 +3,14 @@ interface customersDetailsProps {
   previousComponent: () => void;
 }
 
+<<<<<<< HEAD
 
 const CustomerDetails = ({nextComponent,previousComponent}:customersDetailsProps) => {
 
 
+=======
+const CustomerDetails = (:{nextComponent,previousComponent}) => {
+>>>>>>> ee947a9 (fixing datatype on props)
   return (
     <>
       <div className="container mt-10">
