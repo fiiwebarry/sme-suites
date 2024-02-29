@@ -4,6 +4,7 @@ interface customersDetailsProps {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const CustomerDetails = ({nextComponent,previousComponent}:customersDetailsProps) => {
 
@@ -11,6 +12,9 @@ const CustomerDetails = ({nextComponent,previousComponent}:customersDetailsProps
 =======
 const CustomerDetails = (:{nextComponent,previousComponent}) => {
 >>>>>>> ee947a9 (fixing datatype on props)
+=======
+const CustomerDetails = ({nextComponent,previousComponent}:customersDetailsProps) => {
+>>>>>>> 68cf29d (props-validation on steps-pages)
   return (
     <>
       <div className="container mt-10">

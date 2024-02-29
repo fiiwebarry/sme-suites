@@ -7,6 +7,7 @@ interface BesinessDetailsProps {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 const BusinessDetails = ({nextComponent}:BesinessDetailsProps) => {
 
@@ -14,6 +15,9 @@ const BusinessDetails = ({nextComponent}:BesinessDetailsProps) => {
 =======
 const BusinessDetails = (:{nextComponent}) => {
 >>>>>>> ee947a9 (fixing datatype on props)
+=======
+const BusinessDetails = ({nextComponent}:BesinessDetailsProps) => {
+>>>>>>> 68cf29d (props-validation on steps-pages)
   return (
     <>
       <div className="container mt-10">

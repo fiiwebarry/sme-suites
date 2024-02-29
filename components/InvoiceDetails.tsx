@@ -6,7 +6,6 @@ interface invoiceDetailsProps {
 
 const InvoiceDetails = ({previousComponent}:invoiceDetailsProps) => {
 
-
   return (
     <>
       <div className="container mt-10">
