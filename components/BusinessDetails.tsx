@@ -6,7 +6,10 @@ interface BesinessDetailsProps {
   nextComponent: () => void;
 }
 
+
 const BusinessDetails = ({nextComponent}:BesinessDetailsProps) => {
+
+
   return (
     <>
       <div className="container mt-10">
